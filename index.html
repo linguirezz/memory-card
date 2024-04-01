@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="search">
+            <form action="">
+                <input type="text" name="search-box" id="search">
+            </form>
+            <label onclick="onclicked()" onkeypress="" for="search"><img src="photo/images/search.png" alt=""></label>
+        </div>
+        <div class="isi">
+            <div class="cuaca-foto"><img src="photo/images/clear.png" alt=""></div>
+            <h1 id="temp">22 C</h1>
+            <h2 id="nama">    </h2>
+            <div class="elaborate">
+                <div class="section one">
+                    <div id="foto-1"><img src="photo/images/humidity.png" alt=""></div>
+                    <div class="detail">
+                        <h3 id="humidity">00%</h3>
+                        <p >Humidity</p>
+                    </div>
+                </div>
+                <div class="section two">
+                   <div id="foto-2"><img src="photo/images/wind.png" alt=""></div> 
+                   <div class="detail">
+                    <h3 id="wind">speedkm/h</h3>
+                    <p >Wind Speed</p>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
